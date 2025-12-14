@@ -1,0 +1,50 @@
+body {
+    background-color: lightblue !important;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+}
+
+/* Style 1: header text */
+h1 {
+    color: darkblue;
+}
+
+/* Style 2: paragraph text */
+p {
+    color: #333;
+}
+
+/* Style 3: first div block */
+.div-one {
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 10px;
+}
+
+/* Style 4: second div block */
+.div-two {
+    background-color: #5570e8;
+    padding: 15px;
+    margin: 10px;
+}
+
+/* Style 5: third div block */
+.div-three {
+    background-color: #c7f2cf;
+    padding: 15px;
+    margin: 10px;
+}
+.tableau-container {
+    width: 50%;          /* makes it half the page */
+    margin: 0 auto;      /* Centers it */
+    text-align: center;  /* optional – centers heading or content */
+}
+
+.tableau-container .tableauPlaceholder {
+    width: 100% !important; 
+}
+
+.tableau-container object {
+    width: 100% !important;
+    height: auto !important; 
+}
